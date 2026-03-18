@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-mckinsey-blue: #051c2c;
+  --color-mckinsey-light: #f4f4f4;
+  --color-mckinsey-accent: #005eb8;
+}
+
+body {
+  background-color: var(--color-mckinsey-light);
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
