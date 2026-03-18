@@ -6,7 +6,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import React, { useRef, useEffect, useState } from 'react';
 import { ArrowRight, BookOpen, Briefcase, Globe, Users, Award, TrendingUp, ShieldCheck } from 'lucide-react';
-import logo from './assets/einfo7.png';
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
   <motion.div
@@ -104,15 +103,10 @@ export default function App() {
         <div className={`font-sans font-bold tracking-widest uppercase text-[11px] sm:text-xs md:text-sm text-center leading-tight opacity-90 transition-colors duration-500 ${headerTheme === 'dark' ? 'text-white' : 'text-black'}`}>
           ESCUELA DE INFORMÁTICA Y TELECOMUNICACIONES
         </div>
-        <img 
-          src={logo} 
-          alt="Duoc UC Logo" 
-          className="h-6 md:h-8 w-auto pointer-events-auto"
-        />
       </div>
 
       {/* Hero Section */}
-      <section data-theme="dark" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-start justify-center bg-[#051c2c] text-white overflow-hidden pb-24 pt-48 md:pt-56">
+      <section data-theme="dark" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-start justify-center bg-[#051c2c] text-white overflow-hidden pb-24 pt-32 md:pt-40">
         <div className="absolute inset-0 opacity-20">
           <img 
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" 
