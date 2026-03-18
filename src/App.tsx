@@ -99,14 +99,11 @@ export default function App() {
     <div className="min-h-screen bg-[#f4f4f4] font-sans selection:bg-[#005eb8] selection:text-white">
       
       {/* Floating Global Header */}
-      <div className="fixed top-6 md:top-8 left-0 right-0 z-50 flex flex-col items-center pointer-events-none px-4 gap-3">
-        <div className={`font-sans font-bold tracking-widest uppercase text-[11px] sm:text-xs md:text-sm text-center leading-tight opacity-90 transition-colors duration-500 ${headerTheme === 'dark' ? 'text-white' : 'text-black'}`}>
-          Escuela de Informática y Telecomunicaciones
-        </div>
+      <div className="fixed top-6 md:top-8 left-0 right-0 z-50 flex flex-col items-center pointer-events-none px-4">
         <img 
           src="/EINFO-7.png" 
-          alt="Duoc UC Logo" 
-          className="h-6 md:h-8 w-auto"
+          alt="Duoc UC Informática y Telecomunicaciones" 
+          className="h-10 md:h-14 w-auto drop-shadow-md pointer-events-auto"
           referrerPolicy="no-referrer"
         />
       </div>
