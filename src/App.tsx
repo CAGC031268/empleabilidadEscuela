@@ -106,7 +106,7 @@ export default function App() {
         <img 
           src="/EINFO-7.png" 
           alt="Duoc UC Logo" 
-          className="h-6 md:h-8 w-auto"
+          className="h-6 md:h-8 w-auto pointer-events-auto"
           referrerPolicy="no-referrer"
         />
       </div>
