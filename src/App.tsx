@@ -107,6 +107,9 @@ export default function App() {
 
       {/* Hero Section */}
       <section data-theme="dark" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-start justify-center bg-[#051c2c] text-white overflow-hidden pb-24 pt-32 md:pt-40">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-white/15 select-none pointer-events-none z-0">
+          1
+        </div>
         <div className="absolute inset-0 opacity-20">
           <img 
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" 
@@ -165,8 +168,11 @@ export default function App() {
       </section>
 
       {/* Section 1: Propuesta de Valor */}
-      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer min-h-[100dvh] flex items-center py-24 md:py-40 px-6 md:px-12 max-w-7xl mx-auto">
-        <div className="w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-center py-24 md:py-40 px-6 md:px-12">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-black/15 select-none pointer-events-none z-0">
+          2
+        </div>
+        <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5">
             <FadeIn>
               <h2 className="font-serif text-4xl md:text-5xl text-[#051c2c] leading-tight mb-6">
@@ -196,7 +202,10 @@ export default function App() {
       </section>
 
       {/* Section 2: Evidencia (CAPE) - Data Driven Look */}
-      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer min-h-[100dvh] flex items-center py-24 md:py-32 bg-white px-6 md:px-12">
+      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-center py-24 md:py-32 bg-white px-6 md:px-12">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-black/15 select-none pointer-events-none z-0">
+          3
+        </div>
         <div className="w-full max-w-7xl mx-auto">
           <FadeIn>
             <div className="flex items-center gap-4 mb-16">
@@ -247,7 +256,10 @@ export default function App() {
       </section>
 
       {/* Section 3: Big Numbers / Specialization */}
-      <section data-theme="dark" onClick={handleNextSlide} className="cursor-pointer min-h-[100dvh] flex items-center py-24 md:py-40 bg-[#051c2c] text-white px-6 md:px-12">
+      <section data-theme="dark" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-center py-24 md:py-40 bg-[#051c2c] text-white px-6 md:px-12">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-white/15 select-none pointer-events-none z-0">
+          4
+        </div>
         <div className="w-full max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
             <div className="lg:col-span-5">
@@ -287,8 +299,11 @@ export default function App() {
       </section>
 
       {/* Section 4: Real World Faculty */}
-      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer min-h-[100dvh] flex items-center py-24 md:py-32 px-6 md:px-12 max-w-7xl mx-auto">
-        <div className="w-full flex flex-col md:flex-row gap-16 items-center">
+      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-center py-24 md:py-32 px-6 md:px-12">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-black/15 select-none pointer-events-none z-0">
+          5
+        </div>
+        <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
           <div className="w-full md:w-1/2">
             <FadeIn>
               <div className="aspect-[4/5] bg-gray-200 relative overflow-hidden">
@@ -334,7 +349,10 @@ export default function App() {
       </section>
 
       {/* Section 5: Certifika & Ecosystem */}
-      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer min-h-[100dvh] flex items-center py-24 md:py-32 bg-white px-6 md:px-12 border-t border-gray-200">
+      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-center py-24 md:py-32 bg-white px-6 md:px-12 border-t border-gray-200">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-black/15 select-none pointer-events-none z-0">
+          6
+        </div>
         <div className="w-full max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             
@@ -394,7 +412,10 @@ export default function App() {
       </section>
 
       {/* Section 6: Sello Social & Futuro */}
-      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer min-h-[100dvh] flex items-center py-24 md:py-32 bg-[#f4f4f4] px-6 md:px-12">
+      <section data-theme="light" onClick={handleNextSlide} className="cursor-pointer relative min-h-[100dvh] flex items-center py-24 md:py-32 bg-[#f4f4f4] px-6 md:px-12">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-black/15 select-none pointer-events-none z-0">
+          7
+        </div>
         <div className="w-full max-w-4xl mx-auto text-center">
           <FadeIn>
             <ShieldCheck className="w-12 h-12 text-[#005eb8] mx-auto mb-8" strokeWidth={1} />
@@ -440,7 +461,10 @@ export default function App() {
       </section>
 
       {/* Footer / Conclusion */}
-      <section data-theme="dark" className="min-h-[100dvh] flex items-center justify-center py-32 bg-[#051c2c] text-white px-6 md:px-12 text-center">
+      <section data-theme="dark" className="relative min-h-[100dvh] flex items-center justify-center py-32 bg-[#051c2c] text-white px-6 md:px-12 text-center">
+        <div className="absolute bottom-8 right-12 font-serif text-8xl md:text-9xl text-white/15 select-none pointer-events-none z-0">
+          8
+        </div>
         <div className="w-full max-w-4xl mx-auto">
           <FadeIn>
             <h2 className="font-serif text-5xl md:text-6xl leading-tight mb-10">
