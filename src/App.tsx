@@ -6,7 +6,7 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import React, { useRef, useEffect, useState } from 'react';
 import { ArrowRight, BookOpen, Briefcase, Globe, Users, Award, TrendingUp, ShieldCheck } from 'lucide-react';
-import logo from './assets/EINFO-7.png';
+import logo from './assets/einfo7.png';
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
   <motion.div
@@ -108,7 +108,6 @@ export default function App() {
           src={logo} 
           alt="Duoc UC Logo" 
           className="h-6 md:h-8 w-auto pointer-events-auto"
-          referrerPolicy="no-referrer"
         />
       </div>
 
