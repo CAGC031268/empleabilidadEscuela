@@ -6,6 +6,7 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import React, { useRef, useEffect, useState } from 'react';
 import { ArrowRight, BookOpen, Briefcase, Globe, Users, Award, TrendingUp, ShieldCheck } from 'lucide-react';
+import logo from './assets/EINFO-7.png';
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
   <motion.div
@@ -104,7 +105,7 @@ export default function App() {
           ESCUELA DE INFORMÁTICA Y TELECOMUNICACIONES
         </div>
         <img 
-          src="/EINFO-7.png" 
+          src={logo} 
           alt="Duoc UC Logo" 
           className="h-6 md:h-8 w-auto pointer-events-auto"
           referrerPolicy="no-referrer"
@@ -318,7 +319,7 @@ export default function App() {
             
             <FadeIn delay={0.2}>
               <div className="flex gap-6 items-start">
-                <div className="font-serif text-5xl text-[#005eb8] leading-none">67%</div>
+                <div className="font-serif text-5xl text-[#005eb8] leading-none">70%</div>
                 <div>
                   <h4 className="font-serif text-2xl text-[#051c2c] mb-2">Docentes que son Actores</h4>
                   <p className="font-sans text-lg text-gray-900 font-light">De nuestra planta docente trabaja activamente en la industria. Traen los problemas reales de la mañana a la sala de clases por la tarde.</p>
@@ -349,9 +350,9 @@ export default function App() {
               <FadeIn>
                 <div className="flex items-center gap-3 mb-6">
                   <Globe className="w-5 h-5 text-[#005eb8]" />
-                  <h2 className="font-sans font-semibold text-base uppercase tracking-widest text-gray-600">Certifika</h2>
+                  <h2 className="font-sans font-semibold text-base uppercase tracking-widest text-gray-600">El Pasaporte Global</h2>
                 </div>
-                <h3 className="font-serif text-3xl md:text-4xl text-[#051c2c] mb-6">El Pasaporte Global</h3>
+                <h3 className="font-serif text-3xl md:text-4xl text-[#051c2c] mb-6">CERTIFIKA</h3>
                 <p className="font-sans text-lg text-gray-900 font-light mb-8">
                   Validación que la industria reconoce. Entregamos a los estudiantes certificaciones de las Big Techs mientras cursan su carrera.
                 </p>
@@ -456,9 +457,8 @@ export default function App() {
               Estamos listos para seguir liderando el ecosistema tecnológico nacional.
             </p>
             <div className="pt-12">
-              <button className="group inline-flex items-center gap-3 border border-white/30 px-8 py-4 hover:bg-white hover:text-[#051c2c] transition-colors duration-300 font-sans text-base uppercase tracking-widest">
+              <button className="inline-flex items-center border border-white/30 px-8 py-4 hover:bg-white hover:text-[#051c2c] transition-colors duration-300 font-sans text-base uppercase tracking-widest">
                 Escuela de Informática y Telecomunicaciones, más que una malla
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
           </FadeIn>
