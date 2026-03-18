@@ -276,7 +276,7 @@ export default function App() {
             <div className="lg:col-span-6 lg:col-start-7 grid grid-cols-1 sm:grid-cols-2 gap-12">
               <FadeIn delay={0.2}>
                 <div className="border-t border-white/20 pt-6">
-                  <div className="font-serif text-6xl md:text-7xl text-white mb-2">+3.700</div>
+                  <div className="font-serif text-6xl md:text-7xl text-white mb-2">3.500</div>
                   <div className="font-sans text-base uppercase tracking-widest text-blue-300 font-semibold mb-4">Horas de Enfoque</div>
                   <p className="font-sans text-gray-300 font-light text-base">Un modelo de formación especializado y profundo.</p>
                 </div>
@@ -284,12 +284,8 @@ export default function App() {
               
               <FadeIn delay={0.4}>
                 <div className="border-t border-white/20 pt-6">
-                  <div className="font-serif text-5xl md:text-6xl text-white mb-2 mt-2">3.500</div>
-                  <div className="font-sans text-base uppercase tracking-widest text-gray-300 font-semibold mb-4">Hrs Curriculares</div>
-                  <p className="font-sans text-gray-300 font-light text-base mb-6">Formación base sólida y avanzada.</p>
-                  
-                  <div className="font-serif text-4xl text-white mb-2">216</div>
-                  <div className="font-sans text-base uppercase tracking-widest text-gray-300 font-semibold mb-2">Hrs Co-curriculares</div>
+                  <div className="font-serif text-6xl md:text-7xl text-white mb-2">216</div>
+                  <div className="font-sans text-base uppercase tracking-widest text-gray-300 font-semibold mb-4">Hrs Co-curriculares</div>
                   <p className="font-sans text-gray-300 font-light text-base">Micro-Especialización flexible y actualizada.</p>
                 </div>
               </FadeIn>
