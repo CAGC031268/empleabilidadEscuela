@@ -4,7 +4,7 @@
  */
 
 import { motion, useScroll, useTransform } from 'motion/react';
-import { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { ArrowRight, BookOpen, Briefcase, Globe, Users, Award, TrendingUp, ShieldCheck } from 'lucide-react';
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
@@ -104,7 +104,7 @@ export default function App() {
           Escuela de Informática y Telecomunicaciones
         </div>
         <img 
-          src="https://raw.githubusercontent.com/CAGC031268/empleabilidadEscuela/main/EINFO-7.png" 
+          src="/EINFO-7.png" 
           alt="Duoc UC Logo" 
           className="h-6 md:h-8 w-auto"
           referrerPolicy="no-referrer"
